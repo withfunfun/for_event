@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-boxs;
+}
+ul,ol,li{
+    list-style:none;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-self:center;
+    align-items:center;
+
+    .list{display:flex;}
+        li{
+            width:150px;
+            height:50px;
+            border:1px solid #aaa;
+
+            a{
+                width:100%;
+                height:100%;
+                display:flex;
+                justify-content:center;
+                align-items: center;
+                font:bold 14px/1 "arial";
+                color:#777;
+            }
+
+            &.on a{
+               background-color:#777;
+               color:aqua 
+            }
+    }
+}
